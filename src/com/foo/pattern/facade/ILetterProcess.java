@@ -1,4 +1,4 @@
-package com.foo.pattern.Facade;
+package com.foo.pattern.facade;
 
 public interface ILetterProcess {
     void writeContext(String context);

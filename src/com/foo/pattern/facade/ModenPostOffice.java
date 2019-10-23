@@ -1,4 +1,4 @@
-package com.foo.pattern.Facade;
+package com.foo.pattern.facade;
 
 public class ModenPostOffice {
     private ILetterProcess letterProcess=new LetterProcessImpl();
