@@ -2,6 +2,11 @@ package com.foo.pattern.create.prototype;
 
 import java.util.Random;
 
+/**
+ * 使用原型模式时，引用的成员变量必须满足两个条件才不会被拷贝：<br/>
+ * 一、类的成员变量，而不是方法内变量；<br/>
+ * 二、必须是一个可变引用对象，而不是一个原始类型(int)或不可变对象(String)
+ */
 public class Client {
     private static int MAX_COUNT=6;
 
