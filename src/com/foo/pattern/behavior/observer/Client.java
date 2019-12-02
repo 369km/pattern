@@ -1,7 +1,5 @@
 package com.foo.pattern.behavior.observer;
 
-import java.util.Observer;
-
 public class Client {
     public static void main(String[] args) {
         Observer lisi=new LiSi();
